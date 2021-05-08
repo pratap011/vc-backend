@@ -1,0 +1,11 @@
+---
+application:
+  name: "vc-app"
+  project: "vc-deploy"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-vc-app"
+  routes:
+  - application_name: "vc-app"
+    paths:
+    - "/*"
